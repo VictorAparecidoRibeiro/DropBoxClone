@@ -30,14 +30,14 @@ class DropBoxController {
     connectFireBase() {
 
         var firebaseConfig = {
-            apiKey: "AIzaSyDYsRj-qBG2U0S_dFmTd_krmz_Fvxny_o4",
-            authDomain: "dropvox-clone.firebaseapp.com",
-            databaseURL: "https://dropvox-clone.firebaseio.com",
-            projectId: "dropvox-clone",
-            storageBucket: "dropvox-clone.appspot.com",
-            messagingSenderId: "181646885708",
-            appId: "1:181646885708:web:ab4d4496204b32e70cc5e9",
-            measurementId: "G-X336F5WG0Q"
+            apiKey: "API KEY",
+            authDomain: "DOMAIN",
+            databaseURL: "DATA BASE URL",
+            projectId: "ID DO PROJETO",
+            storageBucket: "",
+            messagingSenderId: "",
+            appId: "",
+            measurementId: ""
         };
         // Initialize Firebase
         firebase.initializeApp(firebaseConfig);
